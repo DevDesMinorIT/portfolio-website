@@ -191,6 +191,10 @@ html {
       box-sizing: inherit;
 }
 
+html {
+      scroll-behavior: smooth;
+}
+
 body {
       background: #ffffff;
 }
@@ -3020,11 +3024,26 @@ ul.icons li:last-child {
       padding-right: 0;
 }
 
+section {
+      border:
+}
+
+#wrapper {
+      background-image: url("images/steven-gallery/img-main-letter.png");
+}
+
 /* Section/Article */
 
 section.special,
 article.special {
       text-align: center;
+}
+
+section.align-center {
+      background-image: url(images/steven-gallery/img-10_ratio.png);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
 }
 
 header p {
